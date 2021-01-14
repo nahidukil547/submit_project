@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size:65.25% ;
+    font-family: sans-serif;
+}
+body{
+    background: #f8f7c9;
+}
+/* root option  */
+:root{
+
+    /* font family  */
+    
+    --fonts:sans-serif:
+     
+    /* color */
+        
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto !important;
+}
+
+
+h3{
+    color: rgb(107, 105, 3);
+    font-size: 30px;
+}
+h4{
+    font-size: 2rem;
+}
+/* header strat  */
+
+
+
+.nav__background{
+    background: rgb(49, 49, 47);
+    position: sticky;
+    top: 0;
+    
+}
+
+.nav__hover{
+    width: 7rem ;
+    position: relative;
+}
+
+.nav__hover .nav__hoveritems{
+   visibility: hidden;
+    width: 19rem;
+    font-size: 2rem;
+
+    position: absolute;
+    left: calc(0% - 4rem);
+    top: calc(100% + 1rem);
+    background: #fff;
+    box-shadow: 0px 0px 10px 4px #fff;
+    transform: translate(20px);
+    transition: .5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.03, 0.23, 0.58, 1);
+    transition-delay: 0s;
+  
+}
+.nav__hover .nav__hoveritems ul .nav__hader__item__menu{
+    list-style: none;
+    margin: 1rem;
+    transition: .5s;
+}
+
+.nav__hover:hover .nav__hoveritems{
+    visibility: visible;
+    transform: translate(-20px);
+    opacity: 3;
+    
+    
+}
+.nav__hover .nav__hoveritems ul .nav__hader__item__menu:hover{
+  letter-spacing: 1px;
+    
+}
+/* header End  */
+
+/* nabigationbar strat  */
+
+.nabigationbar{
+    width: 50%;
+    margin: 0 auto;
+    padding: 4rem;
+}
+.nabigation__menu{
+    padding-top:5rem ;
+}
+
+.navigation__link{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navigation__link .navigation__text{
+    font-size: 25px;
+}
+
+.nabigation__item__section{
+    margin-top: 4rem ;
+   transition: .5s;
+    &:hover{
+        .navigation__link__section__img{
+            transform: scale(1.1);
+            
+        }
+        .text__none_spasing{
+            .text__spasing{
+                letter-spacing: 1px;
+            }
+        }
+    }
+}
+
+.nabigation__item__section .navigation__link__section{
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    
+}
+
+
+.nabigation__item__section .navigation__link__section .navigation__link__section__img{
+    width: 18rem;
+    transition: all .5s ease;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+}
+
+
+.navigation__text__section{
+  font-size: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+
+ .text__none_spasing{
+    font-size: 2rem;
+    padding-left: 2.5rem;
+    color: rgb(78, 78, 78);
+}
+
+
+.text__none_spasing .text__spasing{
+    color: rgb(29, 30, 119);
+    transition: .5s;
+}
+
+.card__footer{
+    i{
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+/* nabigationbar end  */
